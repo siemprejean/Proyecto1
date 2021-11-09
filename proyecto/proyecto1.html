@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Proyecto test #1</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<section class="fdb-block">
+<div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+       <img alt="image" class="img-fluid" src="undraw_questions_re_1fy7.svg"> 
+      </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
+        <div class="row">
+          <div class="col text-center">
+          <br>
+            <h1>Encuesta</h1>
+            <p></p>
+          </div>
+        </div>
+        <br>
+
+        <form name="FormEncuesta" method="post" action="trancicion.php" >
+
+        <ol > sexo <br><br>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="inlineCheckbox1" value="Femenino" name="opciones" checked>
+        <label class="form-check-label" for="inlineCheckbox1">Femenino</label>
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="Masculino" name="opciones">
+        <label class="form-check-label" for="inlineCheckbox2">Masculino</label>
+        </div>
+        <br>
+      </ol>
+
+        <br>
+        Edad <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="edad">
+        <option value="18 a 25">18 a 25
+        <option value="25 a 35" selected >25 a 35
+        <option value="35 a 50">35 a 50
+        <option value="50 a 70">50 a 70
+        <option value="70 en adelante">70 en adelante
+        </select>
+        <br>
+
+
+        Salario<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="salario">
+        <option value="0 a 500">0 a 500</option>
+        <option value="500 a 700" selected >500 a 700</option>
+        <option value="700 a 1000">700 a 1000</option>
+        <option value="1000 en adelante">1000 en adelante</option>
+        </select>
+        <br>
+        
+        Provincia <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="provincia" >
+        <option value="Bocas del Toro">Bocas del Toro</option>
+        <option value="Coclé">Coclé</option>
+        <option value="Colón">Colón</option>
+        <option value="Chiriquí">Chiriquí</option>
+        <option value="Darién">Darién</option>
+        <option value="Herrera">Herrera</option>
+        <option value="Los Santos">Los Santos</option>
+        <option value="Panamá" selected >Panamá</option>
+        <option value="Veraguas">Veraguas</option>
+        <option value="Panamá Oeste">Panamá Oeste</option>
+        </select>
+        <br>
+
+        <!--<button class="btn btn-primary mt-4">Subir</button>-->
+        <input type="submit" value="insertar" name="insertar" class="btn btn-primary mt-4">
+      </form>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section> 
+<br><br>
+<a href="nav.html">Volver al Menu</a>
+</body>
+</html>
+
